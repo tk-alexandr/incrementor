@@ -1,1 +1,36 @@
 Base implimentation of Incrementor
+
+Create new instance of Incrementor: 
+
+...
+
+import (
+    ...
+    "github.com/tk-alexandr/incrementor"
+    ...
+)
+
+func main() {
+    ...
+    incr :=  incrementor.CreateIncrementor()          //creates new instance of incrementor
+    ...
+}
+
+
+Set max value of incrementor:
+
+    ...
+    incr.SetMaxValue(5)                              //Sets 5 as max value of incrementor
+    ...
+
+Increment current number:
+
+    ...
+    incr.IncrementNumber()                          //Increments current number
+    ...
+
+Get current number:
+
+    ...
+    incr.GetCurrentNumber()
+    ...
